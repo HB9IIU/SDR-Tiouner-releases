@@ -24,7 +24,7 @@ Get **`SDR-Tiouner-windows-x64.zip`** from the [Releases](../../releases) page. 
 | HackRF One | full band |
 | LimeSDR Mini | full band on **USB 3**. On USB 2 only about 3.5 MHz of the band at once |
 | PlutoSDR | USB: about 6 MHz of the band at once. Gigabit network: full band. Found on USB or on your network |
-| RTL-SDR | one narrow channel at a time (about 2.4 MHz window) |
+| RTL-SDR | a window of about 2.4 MHz: it starts with one channel, and a second or third works when it falls inside that window. Narrow channels only (up to about 1 MS/s) |
 
 If a radio's connection cannot carry the full band, SDR-Tiouner measures it, runs at what the link allows, and tells you.
 
