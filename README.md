@@ -1,3 +1,5 @@
+<p align="center"><img src="images/sdr-tiouner-banner.png" alt="SDR-Tiouner - multi channel QO-100 DATV" width="640"></p>
+
 # SDR-Tiouner
 
 **Multi-channel QO-100 DATV receiver, by HB9IIU.** Up to four narrowband DATV channels from one wideband SDR, in your web browser.
@@ -17,14 +19,16 @@ Get **`SDR-Tiouner-windows-x64.zip`** from the [Releases](../../releases) page. 
 - A modern browser (Chrome, Edge, Firefox)
 - One of these radios, and a QO-100 narrowband receive chain (LNB at 9750 MHz, IF about 740 MHz):
 
-| Radio | Notes |
-|---|---|
-| Airspy R2 / Mini | full band, 10 Msps |
-| SDRplay RSP1 / RSP2 / RSPdx / RSPduo | full band. Needs the free [SDRplay API](https://www.sdrplay.com/api/) installed once |
-| HackRF One | full band |
-| LimeSDR Mini | full band on **USB 3**. On USB 2 only about 3.5 MHz of the band at once |
-| PlutoSDR | USB: about 6 MHz of the band at once. Gigabit network: full band. Found on USB or on your network |
-| RTL-SDR | a window of about 2.4 MHz: it starts with one channel, and a second or third works when it falls inside that window. Narrow channels only (up to about 1 MS/s) |
+| | Radio | What you get |
+|---|---|---|
+| <img src="images/airspy-r2.jpg" width="150" alt="Airspy R2"> | **Airspy R2 / Mini** | Full band, 10 Msps |
+| <img src="images/sdrplay-rsp2.jpg" width="150" alt="SDRplay RSP2"> | **SDRplay** RSP1 / RSP2 / RSPdx / RSPduo | Full band. Needs the free [SDRplay API](https://www.sdrplay.com/api/) installed once |
+| <img src="images/hackrf-one.jpg" width="150" alt="HackRF One"> | **HackRF One** | Full band |
+| <img src="images/limesdr-mini.jpg" width="150" alt="LimeSDR Mini"> | **LimeSDR Mini** | Full band on **USB 3**. On USB 2 only about 3.5 MHz of the band at once |
+| <img src="images/adalm-pluto.jpg" width="150" alt="ADALM-Pluto"> | **PlutoSDR** | USB: about 6 MHz of the band at once. Gigabit network: full band. Found on USB or on your network |
+| <img src="images/rtl-sdr-v4.jpg" width="150" alt="RTL-SDR"> | **RTL-SDR** | A window of about 2.4 MHz: it starts with one channel, and a second or third works when it falls inside that window. Narrow channels only (up to about 1 MS/s) |
+
+<sub>Product pictures belong to their respective owners and are shown only to help you recognise the radios. They are not part of the program or of its licence.</sub>
 
 If a radio's connection cannot carry the full band, SDR-Tiouner measures it, runs at what the link allows, and tells you.
 
