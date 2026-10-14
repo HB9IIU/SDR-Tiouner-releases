@@ -28,7 +28,7 @@ Get **`SDR-Tiouner-windows-x64.zip`** from the [Releases](../../releases) page. 
 | <img src="images/adalm-pluto.jpg" width="150" alt="ADALM-Pluto"> | **PlutoSDR** | USB: about 6 MHz of the band at once. Gigabit network: full band. Found on USB or on your network |
 | <img src="images/rtl-sdr-v4.jpg" width="150" alt="RTL-SDR"> | **RTL-SDR** | A window of about 2.4 MHz: it starts with one channel, and a second or third works when it falls inside that window. Narrow channels only (up to about 1 MS/s) |
 
-<sub>Product pictures belong to their respective owners and are shown only to help you recognise the radios. They are not part of the program or of its licence.</sub>
+<sub>Photos: HB9IIU.</sub>
 
 If a radio's connection cannot carry the full band, SDR-Tiouner measures it, runs at what the link allows, and tells you.
 
