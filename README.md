@@ -60,7 +60,7 @@ Close any other program that is using the same radio.
 
 For **SDRplay**, install the SDRplay API software linked above.
 
-For **Airspy, HackRF and RTL-SDR**, Windows may need a USB driver before the program can use the radio. If the required driver is missing, use [Zadig](https://zadig.akeo.ie) to select your radio and install **WinUSB**. Make sure you select the radio, not another USB device. This is normally a one-time setup.
+For **Airspy, HackRF and RTL-SDR**, install and set up the radio using the SDR application you normally use with it, following that application’s driver instructions. Check that the radio works there, then close that application before starting SDR-Tiouner.
 
 ## Receive your first channel
 
