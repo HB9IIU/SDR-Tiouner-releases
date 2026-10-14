@@ -1,0 +1,48 @@
+WRITTEN OFFER OF SOURCE CODE
+============================
+
+SDR-Tiouner by HB9IIU - multi-channel QO-100 DATV receiver
+
+FREE OF CHARGE - NOT FOR SALE
+-----------------------------
+SDR-Tiouner is free software, made by an amateur for the amateur radio community. It is given away free of charge and it is NOT for sale.
+
+  * You never have to pay to receive it, use it, copy it or pass it on.
+  * If anyone asks you to pay for this program, please do not pay, and let HB9IIU know.
+  * You are welcome to share it with other radio amateurs, free of charge, together with this offer and the licence files.
+
+Please note: the GNU General Public License (see LICENSE.txt) lets anyone charge a fee for a copy, so this is the wish of the author and
+not an added condition. The terms of the licence are unchanged.
+
+This package contains SDR-Tiouner in binary form (SDR-Tiouner.exe and the libraries next to it).
+
+SDR-Tiouner is free software: you can redistribute it and modify it under the terms of the GNU General Public License as published by the
+Free Software Foundation, either version 3 of the License, or (at your option) any later version. The licence text is in LICENSE.txt.
+This program comes with NO WARRANTY, to the extent permitted by law.
+
+WHERE THE SOURCE CODE COMES FROM
+--------------------------------
+SDR-Tiouner is a modified version of OnAir by adswill and the OnAir contributors:
+
+    https://github.com/adswill/OnAir          (GPL-3.0-or-later)
+
+The receiver, player and signal processing are theirs. The changes made for SDR-Tiouner (the multi-channel receiver and its web page, the
+Airspy R2 driver, the stream-out, calibration and load display, the packaging scripts) are NOT in that repository.
+
+YOUR RIGHT TO THE SOURCE CODE
+-----------------------------
+Anyone who has received this package may obtain, on request, the complete corresponding source code of exactly this version (including the
+scripts used to build the package), as a ZIP file, free of charge apart from the cost of sending it if it is not sent by e-mail or download.
+
+This offer is valid for three years from the date of this package and for as long as this version is distributed.
+
+To get the source code, contact:
+
+    HB9IIU - Daniel - hb9iiu@gmail.com
+
+Please quote the version: SDR-Tiouner, package built October 2026.
+
+THIRD-PARTY COMPONENTS
+----------------------
+The libraries and programs shipped in this folder, with their licences and where their source code is, are listed in THIRD-PARTY-NOTICES.txt.
+The licence texts of MediaMTX, libairspy and Bootstrap are in this folder (MediaMTX-LICENSE.txt, Airspy-LICENSE.txt, Bootstrap-LICENSE.txt).
