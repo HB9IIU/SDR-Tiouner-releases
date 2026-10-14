@@ -1,5 +1,15 @@
 <p align="center"><img src="images/sdr-tiouner-banner.png" alt="SDR-Tiouner - multi channel QO-100 DATV" width="640"></p>
 
+<h2 align="center">DEMO</h2>
+
+<p align="center">
+  <a href="https://youtu.be/zrdZYKuxhsY" title="Watch the SDR-Tiouner demo on YouTube">
+    <img src="https://img.youtube.com/vi/zrdZYKuxhsY/maxresdefault.jpg" alt="SDR-Tiouner demo video (click to watch on YouTube)" width="640">
+  </a>
+  <br>
+  <sub>Click the picture to watch the demo on YouTube</sub>
+</p>
+
 # SDR-Tiouner
 
 **Multi-channel QO-100 DATV receiver, by HB9IIU.** Up to four narrowband DATV channels from one wideband SDR, in your web browser.
