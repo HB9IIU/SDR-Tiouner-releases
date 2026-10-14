@@ -78,14 +78,6 @@ The three buttons above the spectrum move the radio’s receive window left, cen
 
 If you need help or find a problem, email [HB9IIU](mailto:hb9iiu@gmail.com). Include the version (`0.1.0-beta.1`), your radio model, what you were trying to do and any error message. A screenshot can also help.
 
-## Files included in the download
-
-- **`SDR-Tiouner.exe`** starts the program. Keep the other files beside it; they are needed for it to work.
-- **`README.md`** contains instructions. In this beta, the copy inside the ZIP also contains older development notes. Use the download and startup instructions on this page; no MSYS2 terminal or build scripts are needed.
-- **`SOURCE-OFFER.txt`** explains how to request the source code. You do not need source code to run the program.
-- **`LICENSE.txt`** and the other licence files explain the terms for using and sharing the software. **`THIRD-PARTY-NOTICES.txt`** lists the other software components it uses.
-- **`VALIDATION.md`** describes the tests performed and their limits. It is background information, not a setup guide.
-
 ## Licence and source code
 
 SDR-Tiouner is free software under the **GNU GPL v3 or later** and is based on [OnAir](https://github.com/adswill/OnAir).
