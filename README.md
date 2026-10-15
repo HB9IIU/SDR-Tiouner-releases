@@ -12,19 +12,23 @@
 
 # SDR-Tiouner
 
-**Watch amateur television from QO-100 on your PC.** SDR-Tiouner, by HB9IIU, uses one software-defined radio (SDR) to receive up to four digital amateur television (DATV) channels at the same time. You control the program and watch the video in your web browser. The number of channels you can receive depends on your radio, connection and PC.
+> **SDR-Tiouner now has its source code and its downloads in one place: [github.com/HB9IIU/SDR-Tiouner](https://github.com/HB9IIU/SDR-Tiouner).**
+>
+> This repository was created without the source code, only to collect beta testers for the first version. That phase is over: version 0.1.0 is released and the source is public. This page stays as the showcase, with the demo video.
 
-> **Beta version (`0.1.0-beta.1`).** This is an early public release. Some features may not work as expected. See [Help and feedback](#help-and-feedback) if you run into problems.
+**Watch amateur television from QO-100 on your PC.** SDR-Tiouner, by HB9IIU, uses one software-defined radio (SDR) to receive several digital amateur television (DATV) channels at the same time. You control the program and watch the video in your web browser. The number of channels you can receive depends on your radio, connection and PC.
+
+> **Version 0.1.0.** This is the first stable release of a hobby project. If you run into problems, see [Help and feedback](#help-and-feedback).
 
 SDR-Tiouner is provided free of charge by HB9IIU. Please use the official download below.
 
 ## Download and start
 
-1. Open the [download page](https://github.com/HB9IIU/SDR-Tiouner-releases/releases/tag/v0.1.0-beta.1).
-2. Under **Assets**, download **`SDR-Tiouner-0.1.0-beta.1-windows-x64.zip`**. Choose this file, not the “Source code” downloads or the `.sha256` checksum file.
+1. Open the [download page](https://github.com/HB9IIU/SDR-Tiouner/releases/tag/v0.1.0).
+2. Under **Assets**, download **`SDR-Tiouner-windows-x64.zip`**. Choose this file, not the “Source code” downloads or the `.sha256` checksum file.
 3. Right-click the downloaded ZIP file and choose **Extract All**. Keep all the extracted files together.
 4. Open the extracted folder and double-click **`SDR-Tiouner.exe`**. You can also use `Start SDR-Tiouner.cmd`.
-5. The controls open in your browser. If they do not, open <http://127.0.0.1:8090> yourself while the program is running. This address connects to the program on your own PC.
+5. The controls open in your browser. If they do not, open <http://127.0.0.1:47321> yourself while the program is running. This address connects to the program on your own PC.
 
 There is no installer, and you do not need to compile the program.
 
@@ -44,11 +48,11 @@ The software does not replace the dish, LNB or radio. “Full band” below mean
 | <img src="images/hackrf-one.jpg" width="150" alt="HackRF One"> | **HackRF One** | Full band |
 | <img src="images/limesdr-mini.jpg" width="150" alt="LimeSDR Mini"> | **LimeSDR Mini** | Full band on **USB 3**. On USB 2 only about 3.5 MHz of the band at once |
 | <img src="images/adalm-pluto.jpg" width="150" alt="ADALM-Pluto"> | **PlutoSDR** | Receives part of the band over USB (about 6 MHz, depending on the setup). Network reception depends on the Pluto model and connection |
-| <img src="images/rtl-sdr-v4.jpg" width="150" alt="RTL-SDR"> | **RTL-SDR** | Receives a window of about 2.4 MHz. Plan on one TV channel for this beta, with a symbol rate up to about 1 MSym/s (1,000 kSym/s) |
+| <img src="images/rtl-sdr-v4.jpg" width="150" alt="RTL-SDR"> | **RTL-SDR** | Receives a window of about 2.4 MHz. Plan on one TV channel with a symbol rate up to about 1 MSym/s (1,000 kSym/s) |
 
 <sub>Photos: HB9IIU.</sub>
 
-Airspy Mini support has not been confirmed for this beta.
+Airspy Mini support has not been confirmed.
 
 For an existing QO-100 setup: the 10491–10499 MHz downlink becomes 741–749 MHz at the radio with a 9750 MHz LNB. Symbol rate describes the transmitted signal; MSym/s means million symbols per second.
 
@@ -76,13 +80,13 @@ The three buttons above the spectrum move the radio’s receive window left, cen
 
 ## Help and feedback
 
-If you need help or find a problem, email [HB9IIU](mailto:hb9iiu@gmail.com). Include the version (`0.1.0-beta.1`), your radio model, what you were trying to do and any error message. A screenshot can also help.
+If you need help or find a problem, email [HB9IIU](mailto:hb9iiu@gmail.com). Include the version (`0.1.0`), your radio model, what you were trying to do and any error message. A screenshot can also help.
 
 ## Licence and source code
 
 SDR-Tiouner is free software under the **GNU GPL v3 or later** and is based on [OnAir](https://github.com/adswill/OnAir).
 
-For information on requesting the source code, see [how to request the source code](SOURCE-OFFER.txt). You do not need it to install or use SDR-Tiouner.
+The source code is public: [github.com/HB9IIU/SDR-Tiouner](https://github.com/HB9IIU/SDR-Tiouner). The written offer of the source is in [SOURCE-OFFER.txt](SOURCE-OFFER.txt). You do not need the source to install or use SDR-Tiouner.
 
 You can read the [software licence here](LICENSE). The download also includes licence information for the other software components used by SDR-Tiouner.
 
