@@ -1,4 +1,4 @@
-<p align="center"><img src="images/sdr-tiouner-banner.png" alt="SDR-Tiouner - multi channel QO-100 DATV" width="640"></p>
+<p align="center"><img src="images/videoOnly.png" alt="SDR-Tiouner receiving four QO-100 DATV channels" width="640"></p>
 
 <h2 align="center">DEMO</h2>
 
