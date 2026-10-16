@@ -14,11 +14,11 @@
 
 > **SDR-Tiouner now has its source code and its downloads in one place: [github.com/HB9IIU/SDR-Tiouner](https://github.com/HB9IIU/SDR-Tiouner).**
 >
-> This repository was created without the source code, only to collect beta testers for the first version. That phase is over: version 0.1.0 is released and the source is public. This page stays as the showcase, with the demo video.
+> This repository was created without the source code, only to collect beta testers for the first version. That phase is over: version 0.1.1 is released and the source is public. This page stays as the showcase, with the demo video.
 
 **Watch amateur television from QO-100 on your PC.** SDR-Tiouner, by HB9IIU, uses one software-defined radio (SDR) to receive several digital amateur television (DATV) channels at the same time. You control the program and watch the video in your web browser. The number of channels you can receive depends on your radio, connection and PC.
 
-> **Version 0.1.0.** This is the first stable release of a hobby project. If you run into problems, see [Help and feedback](#help-and-feedback).
+> **Version 0.1.1.** This is a hobby project. If you run into problems, see [Help and feedback](#help-and-feedback).
 
 SDR-Tiouner is provided free of charge by HB9IIU. Please use the official download below.
 
@@ -80,7 +80,7 @@ The three buttons above the spectrum move the radio’s receive window left, cen
 
 ## Help and feedback
 
-If you need help or find a problem, email [HB9IIU](mailto:hb9iiu@gmail.com). Include the version (`0.1.0`), your radio model, what you were trying to do and any error message. A screenshot can also help.
+If you need help or find a problem, email [HB9IIU](mailto:hb9iiu@gmail.com). Include the version (`0.1.1`), your radio model, what you were trying to do and any error message. A screenshot can also help.
 
 ## Licence and source code
 
