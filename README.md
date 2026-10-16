@@ -24,7 +24,7 @@ SDR-Tiouner is provided free of charge by HB9IIU. Please use the official downlo
 
 ## Download and start
 
-1. Open the [download page](https://github.com/HB9IIU/SDR-Tiouner/releases/tag/v0.1.0).
+1. Open the [download page](https://github.com/HB9IIU/SDR-Tiouner/releases/tag/v0.1.1).
 2. Under **Assets**, download **`SDR-Tiouner-windows-x64.zip`**. Choose this file, not the “Source code” downloads or the `.sha256` checksum file.
 3. Right-click the downloaded ZIP file and choose **Extract All**. Keep all the extracted files together.
 4. Open the extracted folder and double-click **`SDR-Tiouner.exe`**. You can also use `Start SDR-Tiouner.cmd`.
